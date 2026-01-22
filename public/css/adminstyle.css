@@ -1,0 +1,62 @@
+nav{
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* เงาด้านล่าง */}
+nav h1{
+    font-size: 60px ;
+    font-family: fantasy;
+    color: aliceblue;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(112, 174, 120);
+    padding: 30px;}
+
+aside button{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        background-color: #4CAF50; 
+        color: white; 
+        padding: 10px 20px; 
+        border: none; 
+        border-radius: 15px; 
+        cursor: pointer; 
+        font-size: 25px; 
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* เงาด้านล่าง */
+        position: absolute;
+  right: 30px;
+  top: 50%; 
+  transform: translateY(-300%);
+}
+
+button:hover {
+    background-color: #45a049;
+  }
+
+table {
+    border: none;
+    border-collapse: collapse;
+    margin-top: 12%;
+    width: 100%;
+    
+  }
+
+table button{
+    border-radius: 10px; 
+    border: none;
+    padding: 5px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* เงาด้านล่าง */
+}  
+
+table th{
+    font-family: sans-serif;
+    text-align: center;
+}
+th.id{text-align: center; margin: 1em;}
+table tr{text-align: center;}
+table td img{
+    margin-top: 8px;
+}

@@ -1,0 +1,165 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    width: 80%;
+    max-width: 1200px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+.movie-card {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.movie-poster {
+    width: 100%; /* ปรับให้รูปภาพใช้พื้นที่เต็มที่ */
+    max-width: 300px; /* จำกัดขนาดสูงสุดที่ 300px */
+    height: auto; /* ให้ปรับความสูงตามอัตราส่วน */
+    border-radius: 10px;
+    object-fit: cover; /* ให้รูปปรับขนาดเข้ากับกรอบโดยไม่เสียสัดส่วน */
+}
+
+.movie-details {
+    flex: 1;
+}
+
+h1 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+p {
+    font-size: 1rem;
+    margin: 5px 0;
+    line-height: 1.6;
+}
+
+h2 {
+    margin-top: 30px;
+    font-size: 1.5rem;
+    color: #666;
+}
+
+ul {
+list-style-type: none;
+padding: 0;
+margin: 0;
+}
+
+li {
+background-color: #f9f9f9;
+padding: 15px;
+margin-bottom: 10px;
+border-radius: 5px;
+border: 1px solid #ddd;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+transition: background-color 0.3s;
+}
+
+li:hover {
+background-color: #f1f1f1;
+}
+
+.review-rating {
+font-size: 1.1rem;
+color: #ff9800;
+font-weight: bold;
+}
+
+/* ตกแต่งส่วนฟอร์มการส่งรีวิว */
+form h3 {
+font-size: 1.5rem;
+color: #333;
+margin-bottom: 20px;
+}
+
+label {
+font-size: 1.1rem;
+color: #333;
+}
+
+input[type="text"],
+textarea,
+input[type="number"] {
+width: 100%;
+padding: 10px;
+margin-bottom: 20px;
+border-radius: 5px;
+border: 1px solid #ddd;
+font-size: 1rem;
+transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+input[type="text"]:focus,
+textarea:focus,
+input[type="number"]:focus {
+border-color: #007bff;
+box-shadow: 0 0 10px rgba(0, 123, 255, 0.2);
+outline: none;
+}
+
+button {
+background-color: #007bff;
+color: white;
+padding: 12px 20px;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+font-size: 1.1rem;
+transition: background-color 0.3s;
+}
+
+button:hover {
+background-color: #0056b3;
+}
+
+button:disabled {
+background-color: #cccccc;
+}
+.delete-button {
+    background-color: #dc3545;
+    margin-top: 20px;
+}
+
+.delete-button:hover {
+    background-color: #c82333;
+}
+
+.back-button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+    background-color: #ffffff;
+    color: rgb(11, 11, 11);
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.back-button:hover {
+    background-color: #ffffff;
+}
+
+.back-button img {
+    vertical-align: middle;
+}
+
+.not-found {
+    text-align: center;
+    padding: 50px;
+}

@@ -1,0 +1,123 @@
+.tab-content {
+    min-height: 600px;
+    margin-top: 20px;
+}
+
+
+.fade-tab {
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.fade-tab.show {
+    opacity: 1;
+}
+
+.nav-tabs {
+    border-bottom: 0;
+    background-color: transparent;
+    margin-bottom: 20px;
+    justify-content: center;
+}
+
+.nav-tabs .nav-item {
+    margin-right: 30px;
+}
+
+.nav-tabs .nav-link {
+    font-size: 18px;
+    font-weight: bold;
+    color: #555;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    background-color: transparent;
+    border: 0;
+    transition: color 0.3s ease, border-bottom 0.3s ease;
+    position: relative;
+}
+
+.nav-tabs .nav-link.active {
+    color: #28a745;
+    border-bottom: 3px solid #28a745;
+}
+
+.nav-tabs .nav-link:hover {
+    color: #28a745;
+}
+
+.section-title {
+    font-weight: bold;
+    color: #28a745;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.card-img-top {
+    width: 100%;
+    height: 100%;
+    max-height: 400px; 
+    object-fit: cover;
+}
+
+.card-img-top-pro {
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+}
+
+.card-img-top-news {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+    
+.card-body {
+    padding: 10px;
+}
+
+.card-title {
+    font-size: 24px;
+    color: #000000;
+}
+
+.card-tleti{
+    font-size: 16px;
+    color: #000000;
+}
+
+.card-text {
+    font-size: 16px;
+    color: #555;
+}
+
+.btn-success {
+    background-color: #28a745;
+    border-color: #28a745;
+}
+
+.btn-success:hover {
+    background-color: #218838;
+    border-color: #1e7e34;
+}
+
+.btn-custom {
+    display: inline-block;
+    padding: 15px 30px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #28a745;
+    border: 2px solid #28a745;
+    border-radius: 50px;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.btn-custom:hover {
+    background-color: #fff;
+    color: #28a745;
+    border-color: #28a745;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.2);
+}
